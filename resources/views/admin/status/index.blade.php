@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<h1>Departments</h1>
+<h1>Status</h1>
 
-<a href="{{route('admin.department.create')}}" class="form-control">Create</a>
+<a href="{{route('admin.status.create')}}" class="btn btn-primary">Create</a>
 @endsection

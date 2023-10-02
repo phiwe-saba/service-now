@@ -15,7 +15,7 @@
                 <div class="position-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href="{{ route('welcome')}}">
                                 Service - Now
                             </a>
                         </li>
@@ -32,6 +32,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 Services
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin.department.index') }}">
+                                Departments
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin.status.index') }}">
+                                Status
                             </a>
                         </li>
                     </ul>

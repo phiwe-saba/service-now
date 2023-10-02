@@ -15,7 +15,7 @@
                 <div class="position-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href="{{ route('welcome')}}">
                                 Service - Now
                             </a>
                         </li>
@@ -37,8 +37,9 @@
                     </ul>
                 </div>
             </nav>
-
-            @yield('content')
+            <main class="col-md-9 ms-sm-auto">
+                @yield('content')
+            </main>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
