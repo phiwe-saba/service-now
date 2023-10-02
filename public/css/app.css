@@ -1,0 +1,15 @@
+/* Navbar */
+.sidebar {
+    height: 100vh;
+    width: 50vh;
+    background-color: rgb(12, 172, 221);
+}
+
+.active{
+    font-size: 30px;
+}
+
+.nav-item a{
+    color: white;
+    padding-top: 25px;
+}
