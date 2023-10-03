@@ -20,7 +20,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="{{ route('admin.dashboard') }}">
                                 Dashboard
                             </a>
                         </li>
@@ -49,9 +49,18 @@
             </nav>
 
             <main class="col-md-9 ms-sm-auto">
-                <!-- Your content goes here -->
-                <h1>Welcome to My Website</h1>
-                <p>This is the main content area.</p>
+                <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-3 col-md-6 col-lg-4">
+                        <h1>Service Now Support</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea, amet earum, corporis voluptate tempora molestias facere ut modi explicabo ab adipisci inventore quia magnam illum asperiores eligendi architecto a.</p>
+                        <button class="btn btn-primary">Learn More</button>
+                      </div>
+                      <div class="col-sm-9 col-md-6 col-lg-8">
+                        <img src="{{ asset('/images/helpdesk.png') }}" alt="">
+                      </div>
+                    </div>
+                </div>
             </main>
         </div>
     </div>

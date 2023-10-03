@@ -28,3 +28,7 @@ Route::post('admin.department.index', 'App\Http\Controllers\DepartmentController
 Route::get('admin.status.index', 'App\Http\Controllers\StatusController@index')->name('admin.status.index');
 Route::get('admin.status.create', 'App\Http\Controllers\StatusController@create')->name('admin.status.create');
 Route::post('admin.status.index', 'App\Http\Controllers\StatusController@store')->name('admin.status.store');
+
+Route::get('admin.dashboard', 'App\Http\Controllers\AdminController@dashboard')->name('admin.dashboard');
+
+Route::get('auth.register', 'App\Http\Controllers\RegisterController@register')->name('auth.register');

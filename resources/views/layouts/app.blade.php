@@ -20,7 +20,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="{{ route('admin.dashboard') }}">
                                 Dashboard
                             </a>
                         </li>
@@ -32,6 +32,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 Services
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin.department.index') }}">
+                                Departments
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin.status.index') }}">
+                                Status
                             </a>
                         </li>
                     </ul>

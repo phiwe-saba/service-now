@@ -13,3 +13,12 @@
     color: white;
     padding-top: 25px;
 }
+
+/* Main Page */
+.row .col-sm-3{
+    padding-top: 200px;
+}
+
+.col-sm-9{
+    padding-top: 160px;
+}
