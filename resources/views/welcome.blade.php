@@ -25,12 +25,12 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="{{ route('ticket.index') }}">
                                 Tickets
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="{{ route('auth.register') }}">
                                 Services
                             </a>
                         </li>
@@ -50,6 +50,10 @@
 
             <main class="col-md-9 ms-sm-auto">
                 <div class="container-fluid">
+                    <div class="text-center">
+                        <a href="#">Register</a>
+                        <a href="#">Login</a>
+                    </div>
                     <div class="row">
                       <div class="col-sm-3 col-md-6 col-lg-4">
                         <h1>Service Now Support</h1>

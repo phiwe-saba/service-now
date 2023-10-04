@@ -32,3 +32,8 @@ Route::post('admin.status.index', 'App\Http\Controllers\StatusController@store')
 Route::get('admin.dashboard', 'App\Http\Controllers\AdminController@dashboard')->name('admin.dashboard');
 
 Route::get('auth.register', 'App\Http\Controllers\RegisterController@register')->name('auth.register');
+Route::post('auth.register', 'App\Http\Controllers\RegisterController@store')->name('auth.store');
+
+Route::get('ticket.index', 'App\Http\Controllers\TicketController@index')->name('ticket.index');
+Route::get('ticket.create', 'App\Http\Controllers\TicketController@create')->name('ticket.create');
+Route::post('ticket.store', 'App\Http\Controllers\TicketController@store')->name('ticket.store');
